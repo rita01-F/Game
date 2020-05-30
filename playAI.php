@@ -30,7 +30,7 @@ include 'menu.php'; //[s]
 	</div>
 	</div>
 
-	<script type="text/javascript" src="js/sologame.js"></script>
+	<script type="text/javascript" src="js/playAI.js"></script>
 	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
 </body>
 </html>

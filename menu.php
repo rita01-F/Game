@@ -15,7 +15,12 @@
      <hr>
 
   	<li class="nav-item active ">
-        <a class="nav-link"  href="sologame.php"><b>Одиночная игра</b><span class="sr-only">(current)</span></a>
+        <a class="nav-link"  href="sologame.php"><b>Игра на одном ПК</b><span class="sr-only">(current)</span></a>
+     </li>
+     <hr>
+
+     <li class="nav-item active ">
+        <a class="nav-link"  href="playAI.php"><b>Игра с ботом</b><span class="sr-only">(current)</span></a>
      </li>
      <hr>
 

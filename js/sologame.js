@@ -18,7 +18,6 @@ $(document).ready(function()
 $('#reload').click(function(){
 	location.reload();
 });
-
 });
 function check(){
 	var boxes = document.getElementsByClassName('block');
