@@ -65,6 +65,13 @@ function AImove(){
 			check();
 			return;
 		}
+		if(move==2&&boxes[6].innerHTML=='X')
+		{
+			boxes[2].innerHTML='O';
+			move++;
+			check();
+			return;
+		}
 		for(var i=0;i<boxes.length; i++)
 		{
 			if(boxes[i].innerHTML==''){
