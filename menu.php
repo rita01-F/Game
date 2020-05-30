@@ -9,17 +9,22 @@
 <nav class="navbar navbar-expand-sm navbar-light bg-light" style=" font-family: Comic Sans MS; font-size: 15pt;";>
 	<ul class="navbar-nav mr-sm-2 my-2 mt-10 mt-lg-0">
 
+    <li class="nav-item active ">
+        <a class="nav-link"  href="index.php"><b>Главная</b><span class="sr-only">(current)</span></a>
+     </li>
+     <hr>
+
   	<li class="nav-item active ">
-        <a class="nav-link"  href="index.php"><b>Одиночная игра</b><span class="sr-only">(current)</span></a>
+        <a class="nav-link"  href="sologame.php"><b>Одиночная игра</b><span class="sr-only">(current)</span></a>
      </li>
      <hr>
 
      <li class="nav-item active">
-        <a class="nav-link" href="posts.php"><b>Найти игрока</b><span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="search_game.php.php"><b>Найти игрока</b><span class="sr-only">(current)</span></a>
      </li>
 
       <li class="nav-item active">
-        <a class="nav-link" href="posts.php"><b>Рейтинг</b><span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="rating.php"><b>Рейтинг</b><span class="sr-only">(current)</span></a>
      </li>
  
      </ul>
