@@ -6,7 +6,7 @@ include 'menu.php'; //[s]
 <head>
 	<meta charset="UTF-8">
 	<title>Крестики-нолики</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 	
 </head>
 <body>
@@ -28,6 +28,6 @@ include 'menu.php'; //[s]
 		<button>Начать заново</button>
 	</div>
 	</div>
-	<script type="text/javascript" src="js.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
 </body>
 </html>
