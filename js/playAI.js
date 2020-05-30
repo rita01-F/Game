@@ -51,6 +51,13 @@ function check(){
 }
 
 function AImove(){
+		if(move==2&&boxes[8].innerHTML=='X')
+		{
+			boxes[6].innerHTML='O';
+			move++;
+			check();
+			return;
+		}
 		for(var i=0;i<boxes.length; i++)
 		{
 			if(boxes[i].innerHTML==''){
