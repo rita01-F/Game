@@ -86,6 +86,27 @@ function AImove(){
 			check();
 			return;
 		}
+		if(move==2&&boxes[4].innerHTML=='X')
+		{
+			boxes[8].innerHTML='O';
+			move++;
+			check();
+			return;
+		}
+		if(move==2&&boxes[1].innerHTML=='X')
+		{
+			boxes[3].innerHTML='O';
+			move++;
+			check();
+			return;
+		}
+		if(move==4&&boxes[1].innerHTML=='X'&&boxes[6].innerHTML=='X')
+		{
+			boxes[4].innerHTML='O';
+			move++;
+			check();
+			return;
+		}
 		for(var i=0;i<boxes.length; i++)
 		{
 			if(boxes[i].innerHTML==''){
