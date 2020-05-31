@@ -2,6 +2,7 @@ var boxes = document.getElementsByClassName('block');
 var isFinished = 0;
 var game_id= document.querySelector('#game_id');
 var area = document.getElementById('area');
+var move= 0;
 setInterval('ajaxGetField()', 1000);
 area.addEventListener('click',function(event){
 	if(event.target.innerHTML=='' && !isFinished){
