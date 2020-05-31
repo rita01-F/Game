@@ -8,6 +8,15 @@ body{
 	width: 780px;
 	margin: 3% auto 10px auto ;
 }
+
+.text{
+    font-family: Comic Sans MS;
+    color: white;
+    margin:250px 300px;
+    text-align: center;
+
+}
+
 button{
 	background-color: #f8f9fa; 
     border: none;
